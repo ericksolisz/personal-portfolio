@@ -70,15 +70,7 @@ The MP4 is required; it plays everywhere, including iPhone Safari. The WebM is o
 
 Files over a few MB make the git repo heavy. If the media grows, move it to Vercel Blob and put the Blob URLs in `src`.
 
-## Deploy on Vercel
 
-1. Push this folder to a GitHub repository.
-2. In Vercel: **Add New → Project**, import the repo. It detects Next.js and pnpm on its own; no settings or environment variables are required.
-3. Optional: once you have a custom domain, set `NEXT_PUBLIC_SITE_URL` (for example `https://yourdomain.com`) so share previews use it. Without it, the Vercel production URL is used.
-
-Both language pages are prerendered as static HTML at build time. The only server code is the small redirect from `/` to `/en` or `/es` (`src/proxy.ts`).
-
-## Checks
 
 ```bash
 pnpm lint
