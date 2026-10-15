@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Task Management System auth flow">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#f2a93b"/></marker></defs>
+<g font-family="JetBrains Mono, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+<rect x="40" y="30" width="200" height="78" rx="10" fill="#1b1713" stroke="rgba(242,169,59,0.55)" stroke-width="1.5"/><text x="140.0" y="77.0" text-anchor="middle" font-size="23" font-weight="700" fill="#ece6dc">client</text>
+<rect x="540" y="30" width="220" height="78" rx="10" fill="#1b1713" stroke="#f2a93b" stroke-width="2"/><text x="650.0" y="77.0" text-anchor="middle" font-size="23" font-weight="700" fill="#ece6dc">spring api</text>
+<path d="M140 108 L140 400" fill="none" stroke="#a89f91" stroke-width="2" stroke-dasharray="6 6" />
+<path d="M650 108 L650 400" fill="none" stroke="#a89f91" stroke-width="2" stroke-dasharray="6 6" />
+<path d="M142 150 L648 150" fill="none" stroke="#f2a93b" stroke-width="2" marker-end="url(#a)"/>
+<text x="395" y="140" text-anchor="middle" font-size="17" fill="#ece6dc">POST /register · bcrypt</text>
+<path d="M142 215 L648 215" fill="none" stroke="#f2a93b" stroke-width="2" marker-end="url(#a)"/>
+<text x="395" y="205" text-anchor="middle" font-size="17" fill="#ece6dc">Basic auth → POST /token</text>
+<path d="M648 280 L142 280" fill="none" stroke="#f2a93b" stroke-width="2" marker-end="url(#a)"/>
+<text x="395" y="270" text-anchor="middle" font-size="17" fill="#ece6dc">JWT · RSA-2048 · stateless</text>
+<path d="M142 345 L648 345" fill="none" stroke="#f2a93b" stroke-width="2" marker-end="url(#a)"/>
+<text x="395" y="335" text-anchor="middle" font-size="17" fill="#ece6dc">Bearer → /tasks, /comments</text>
+<text x="400" y="428" text-anchor="middle" font-size="17" fill="#a89f91">only authors assign · author or assignee changes status</text>
+</g>
+</svg>
