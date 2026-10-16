@@ -21,7 +21,7 @@ function formatPeriod(project: Project, lang: Locale, t: Dictionary) {
   const start = formatMonth(project.start, lang)
   if (project.end === undefined) return start
   const end = project.end === null ? t.projects.present : formatMonth(project.end, lang)
-  return `${start} — ${end}`
+  return `${start} - ${end}`
 }
 
 export function ProjectCard({

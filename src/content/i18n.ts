@@ -11,7 +11,7 @@ export type Localized = Record<Locale, string>
 const dictionaries = {
   en: {
     meta: {
-      title: "Erick Solis Zamacona — AI Engineer | Backend Architect",
+      title: "Erick Solis Zamacona, AI Engineer | Backend Architect",
       description:
         "Portfolio of Erick Solis Zamacona: AI agents, multi-tenant backends and event-driven systems.",
     },
@@ -19,7 +19,7 @@ const dictionaries = {
       name: "Erick Solis Zamacona",
       headline: ["AI Engineer", "Backend Architect"],
       intro:
-        "I build AI agents and the backend systems that keep them honest: typed tool-calling agents, multi-tenant APIs, event-driven services and the tests around them. I focus on the parts most demos skip: correctness, security and billing that adds up.",
+        "I build AI agents and the backend systems behind them: typed tool-calling agents, multi-tenant APIs and event-driven services. I focus on the parts most devs skip: correctness, security and, above all, testing.",
       cta: "Building with AI agents or backend systems? Let's talk.",
     },
     contact: {
@@ -35,7 +35,7 @@ const dictionaries = {
       openSource: "open source",
       closedSource: "closed source",
       viewSource: "View source on GitHub",
-      closedNote: "Closed-source project — media and details available on request.",
+      closedNote: "Closed source. Media and details on request.",
       present: "present",
       mediaSoon: "media coming soon",
       workingTitle: "Working title.",
@@ -53,7 +53,7 @@ const dictionaries = {
   },
   es: {
     meta: {
-      title: "Erick Solis Zamacona — Ingeniero de IA | Arquitecto Backend",
+      title: "Erick Solis Zamacona, Ingeniero de IA | Arquitecto Backend",
       description:
         "Portafolio de Erick Solis Zamacona: agentes de IA, backends multi-tenant y sistemas orientados a eventos.",
     },
@@ -61,7 +61,7 @@ const dictionaries = {
       name: "Erick Solis Zamacona",
       headline: ["Ingeniero de IA", "Arquitecto Backend"],
       intro:
-        "Construyo agentes de IA y los sistemas backend que los mantienen confiables: agentes con herramientas tipadas, APIs multi-tenant, servicios orientados a eventos y las pruebas que los respaldan. Me enfoco en lo que la mayoría de los demos omite: corrección, seguridad y una facturación que cuadra.",
+        "Construyo agentes de IA y los sistemas backend que los sostienen: agentes con herramientas tipadas, APIs multi-tenant y servicios orientados a eventos. Me enfoco en lo que la mayoría de los devs omite: corrección, seguridad y, sobre todo, pruebas.",
       cta: "¿Trabajas con agentes de IA o sistemas backend? Hablemos.",
     },
     contact: {
@@ -77,7 +77,7 @@ const dictionaries = {
       openSource: "código abierto",
       closedSource: "código cerrado",
       viewSource: "Ver código en GitHub",
-      closedNote: "Proyecto de código cerrado — material y detalles disponibles bajo solicitud.",
+      closedNote: "Código cerrado. Material y detalles bajo solicitud.",
       present: "actual",
       mediaSoon: "material próximamente",
       workingTitle: "Nombre provisional.",
